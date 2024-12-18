@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DeveloperToolsToolWindowSettingsV1" lastSelectedContentNodeId="lorem-ipsum-generator">
+    <developerToolsConfigurations>
+      <developerToolConfiguration developerToolId="java-text-escape" id="d1f835c2-2ac1-44fb-b457-96488e115cc3" name="Workbench">
+        <properties>
+          <property key="sourceText" type="INPUT" value="kotlin.String|dfvegved" />
+          <property key="targetText" type="INPUT" value="kotlin.String|dfvegved" />
+        </properties>
+      </developerToolConfiguration>
+      <developerToolConfiguration developerToolId="jwt-encoder-decoder" id="3687e587-4a2d-42c2-b67a-e186951c182e" name="Workbench">
+        <properties>
+          <property key="encodedText" type="INPUT" value="kotlin.String|eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJqdGkiOiI5NjQ5MmQ1OS0wYWQ1LTRjMDAtODkyZC01OTBhZDVhYzAwZjMiLCJzdWIiOiIwMTIzNDU2Nzg5IiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNjgxMDQwNTE1fQ.p8DXyu99_K1XjwQZHiD4Y7EvrZOp12zsZdPdv5tAo8I" />
+        </properties>
+      </developerToolConfiguration>
+    </developerToolsConfigurations>
+  </component>
+</project>
