@@ -28,7 +28,7 @@ const Home = () => {
                         </h2>
                         {/*Btn & socials*/}
                         <div className={"flex flex-col xl:flex-row items-center gap-8"}>
-                            <Link target={"_blank"} href={"/assets/resume/CV_IBRAHIM_DEVELOPPEMENT_APPLICATION.pdf"}>
+                            <Link target={"_blank"} href={"/assets/resume/Resume.pdf"}>
                                 <Button variant={"outline"}
                                         size={"lg"} className={"gap-2 flex items-center uppercase"}>
                                     <span>Télécharger mon CV</span>
