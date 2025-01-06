@@ -11,7 +11,7 @@ import {Tooltip, TooltipContent, TooltipProvider, TooltipTrigger} from "@/compon
 // About data
 const about = {
     title: "A propos de moi",
-    description: "Elève ingénieur en fin de cycle de master à l'Ecole Supérieure Africaines de TIC (ESATIC).",
+    description: "Titulaire d’un master en systèmes informatiques et génie logiciel, je suis passionné par l'innovation technologique et les solutions logicielles de pointe. Mon objectif est de concevoir des logiciels qui allient efficacité et expérience utilisateur optimale.",
     infos: [
         {fieldName: "Nom", fieldValue: "DIARRASSOUBA Ibrahim"},
         {fieldName: "Expérience", fieldValue: "1 Année"},
@@ -29,7 +29,7 @@ const experience = {
     description: "Mon expérience en tant qu'apprenant dans le domaine de l'informatique.",
     items: [
         {company: "UVCI", position: "Stagiaire Développeur Web", duration: "Août 2023 - Oct 2023"},
-        {company: "Independent", position: "Membre d'équipe  projet (Data/IA)", duration: "Fev 2024 - Avril 2024"}
+        {company: "Independent", position: "Développeur Data & IA", duration: "Fev 2024 - Avril 2024"}
     ]
 }
 // Education data
