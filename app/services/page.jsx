@@ -22,12 +22,12 @@ const services = [
             " laissez-moi transformer votre idée en application.",
         href: "#",
     },
-    // {
-    //     num: "03",
-    //     title: "Graphic Design",
-    //     description: "I can create beautiful and functional graphics that will help you achieve your business goals.",
-    //     href: "#",
-    // }
+    {
+        num: "03",
+        title: "Data & IA",
+        description: "Optez pour une application autonome dont le comportement est guidé par l'Intelligence Artificielle (IA)",
+        href: "#",
+    }
 ]
 
 const Services = () => {

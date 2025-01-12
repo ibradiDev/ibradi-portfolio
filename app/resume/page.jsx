@@ -1,8 +1,8 @@
 "use client";
 
 import React from 'react';
-import {FaCss3, FaHtml5, FaJava, FaJs, FaPython, FaReact} from "react-icons/fa";
-import {SiNestjs, SiNextdotjs, SiSpringboot, SiTailwindcss} from "react-icons/si";
+import {FaAngular, FaCss3, FaHtml5, FaJava, FaJs, FaPython, FaReact} from "react-icons/fa";
+import {SiFareharbor, SiNestjs, SiNextdotjs, SiPandas, SiScikitlearn, SiSpringboot, SiTailwindcss, SiTensorflow} from "react-icons/si";
 import {motion} from "framer-motion";
 import {Tabs, TabsContent, TabsList, TabsTrigger} from "@/components/ui/tabs";
 import {ScrollArea} from "@/components/ui/scroll-area";
@@ -39,12 +39,12 @@ const education = {
     items: [
         {
             institution: "Ecole Supérieure Africaine des TIC (ESATIC)",
-            degree: "Systèmes Informatiques et Génie Logiciel",
+            degree: "Master, Systèmes Informatiques et Génie Logiciel",
             duration: "2023 - present"
         },
         {
             institution: "Université Virtuelle de Côte d'Ivoire (UVCI)",
-            degree: "Développement d'Application et e-Services",
+            degree: "Licence, Développement d'Application et e-Services",
             duration: "2020 - 2023"
         },
     ]
@@ -58,12 +58,16 @@ const skills = {
         {icon: <FaCss3/>, name: "css"},
         {icon: <SiTailwindcss/>, name: "tailwind css"},
         {icon: <FaJs/>, name: "javascript"},
+        {icon: <FaAngular/>, name: "angular"},
         {icon: <FaReact/>, name: "react.js"},
         {icon: <SiNextdotjs/>, name: "next.js"},
         {icon: <SiNestjs/>, name: "nest.js"},
-        {icon: <FaJava/>, name: "java"},
         {icon: <SiSpringboot/>, name: "Springboot"},
+        {icon: <FaJava/>, name: "java"},
         {icon: <FaPython/>, name: "python"},
+        {icon: <SiPandas/>, name: "pandas"},
+        {icon: <SiTensorflow/>, name: "tensorflow"},
+        {icon: <SiScikitlearn/>, name: "scikit-learn"},
     ]
 }
 
@@ -134,7 +138,7 @@ const Resume = () => {
                                                     <h3 className={"text-xl max-w-[260px] md:min-h-[60px] lg:min-h-[90px] text-center lg:text-left"}>
                                                         {item.degree}
                                                     </h3>
-                                                    <div className={"flex items-center gap-3"}>
+                                                    <div className={"flex items-center gap-3 mt-4"}>
                                                         {/*Dot*/}
                                                         <span
                                                             className={"w-[6px] h-[6px] bg-accent rounded-full"}>

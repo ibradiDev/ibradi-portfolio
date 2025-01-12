@@ -38,7 +38,7 @@
     }
 
     .text-animation span::before {
-        content: 'Web';
+        content: 'DEV';
         color: #00ff99;
         animation: words 20s infinite;
     }
@@ -78,7 +78,7 @@
         }
         81%,
         100% {
-            content: "Web";
+            content: "Data & IA";
         }
     }
     @keyframes typing {
